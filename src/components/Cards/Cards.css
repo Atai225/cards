@@ -40,7 +40,8 @@ span{
     gap: 1.25rem;
 }
 .cards__item{
-    height: 440px;
+    max-height: 440px;
+    padding: 0;
     padding-bottom: 25px;
     border-radius: 0.625rem;
     -webkit-border-radius: 0.625rem;
