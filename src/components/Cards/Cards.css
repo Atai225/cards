@@ -76,17 +76,15 @@ span{
     line-height: 2rem;
 }
 .views{
-    margin-left: auto;
     letter-spacing: 0.8px;
     position: absolute;
     bottom: 5%;
-    left: 4%;;
+    right: 4%;
 }
 .date{
-    margin-right: auto;
     position: absolute;
     bottom: 5%;
-    right: 4%;;
+    left: 4%;
 }
 span{
     font-family: 'Montserrat';

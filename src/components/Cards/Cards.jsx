@@ -73,10 +73,10 @@ function Cards() {
                                         {card.text}
                                     </p>
                                     <span className='date'>
-                                        <BsClock className='clock'/> {card.date}
+                                        <BsClock className='clock'/> <span>{card.date}</span>
                                     </span>
                                     <span className='views'>
-                                        <BsEyeFill/> {card.viewers}
+                                        <BsEyeFill/><span className='views-count'>{card.viewers}</span>
                                     </span>
                                 </div>
                             </div>
