@@ -16,7 +16,6 @@ function Cards() {
         if(item.id !== 5){
             setCurrentCard(item)
         }
-        console.log(item);
       }
       const dragEndHandler = (e) => {
       }
@@ -73,14 +72,12 @@ function Cards() {
                                     <p className='card__text'>
                                         {card.text}
                                     </p>
-                                    <div className='card__footer'>
-                                        <span className='date'>
-                                            <BsClock className='clock'/> {card.date}
-                                        </span>
-                                        <span className='views'>
-                                            <BsEyeFill/> {card.viewers}
-                                        </span>
-                                    </div>
+                                    <span className='date'>
+                                        <BsClock className='clock'/> {card.date}
+                                    </span>
+                                    <span className='views'>
+                                        <BsEyeFill/> {card.viewers}
+                                    </span>
                                 </div>
                             </div>
                         )

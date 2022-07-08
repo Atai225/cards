@@ -40,7 +40,7 @@ span{
     gap: 1.25rem;
 }
 .cards__item{
-    max-height: 440px;
+    height: 440px;
     padding: 0;
     padding-bottom: 25px;
     border-radius: 0.625rem;
@@ -48,6 +48,7 @@ span{
     -moz-border-radius: 0.625rem;
     -ms-border-radius: 0.625rem;
     -o-border-radius: 0.625rem;
+    position: relative;
 }
 .cards__item--orange{
     background-color: #FFC80A;
@@ -74,17 +75,18 @@ span{
     font-size: 1.375rem;
     line-height: 2rem;
 }
-.card__footer{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 .views{
     margin-left: auto;
     letter-spacing: 0.8px;
+    position: absolute;
+    bottom: 5%;
+    left: 4%;;
 }
 .date{
     margin-right: auto;
+    position: absolute;
+    bottom: 5%;
+    right: 4%;;
 }
 span{
     font-family: 'Montserrat';
@@ -110,7 +112,7 @@ span{
     background-color: #292929;
     color: white;
 }
-.cards__item--black .card__title span {
+.cards__item--black span {
     color: white;
 }
 .cards__item--black .card__title{
