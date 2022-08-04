@@ -1,0 +1,78 @@
+
+.cards__item{
+    height: 440px;
+    padding: 0;
+    padding-bottom: 25px;
+    border-radius: 0.625rem;
+    -webkit-border-radius: 0.625rem;
+    -moz-border-radius: 0.625rem;
+    -ms-border-radius: 0.625rem;
+    -o-border-radius: 0.625rem;
+    position: relative;
+}
+
+.card__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card__img-box{
+    width: 100%;
+    height: auto;
+}
+.card__info{
+    padding:19px 25px 0 25px;
+}
+.card__title{
+    margin: 0;
+    font-weight: 400;
+    font-size: 1.375rem;
+    line-height: 2rem;
+}
+.views{
+    letter-spacing: 0.8px;
+    position: absolute;
+    bottom: 5%;
+    right: 4%;
+}
+.date{
+    position: absolute;
+    bottom: 5%;
+    left: 4%;
+}
+.eye-icon{
+    vertical-align: middle;
+    margin-right: 9px;
+}
+.clock-icon{
+    vertical-align: middle; 
+    margin-right: 7px;
+}
+
+
+
+
+.cards__item--orange{
+    background-color: #FFC80A;
+    color: white;
+}
+.cards__item--orange span{
+    color: white;
+}
+.cards__item--orange .card__title{
+    color: white;
+}
+.cards__item--black{
+    background-color: #292929;
+    color: white;
+}
+.cards__item--black span {
+    color: white;
+}
+.cards__item--black .card__title{
+    color: white;
+}
+.cards__item--gray{
+    background-color: #F7F8F9;
+    color: #9FA3A7;
+}
